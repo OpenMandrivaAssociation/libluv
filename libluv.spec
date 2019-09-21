@@ -25,6 +25,7 @@ BuildRequires:  lua5.3
 %endif
 BuildRequires:  luajit
 Requires:       lua5.3
+Provides:	lua-luv = %{version}-%{release}
 
 %description
 libuv bindings for luajit and lua 5.1/5.2/5.3.
