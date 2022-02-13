@@ -38,6 +38,7 @@ project but should usable from nearly any lua project.
 %package -n %{libname}
 Summary:	Version of libluv built for luajit
 Provides:	luajit-luv = %{version}-%{release}
+Provides:	libluv = %{EVRD}
 %rename %{name}
 
 %description -n %{libname}
