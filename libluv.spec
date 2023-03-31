@@ -10,7 +10,7 @@
 
 Name:           libluv
 Version:        1.43.0
-Release:        1
+Release:        2
 Summary:        Bare libuv bindings for lua
 Group:          Development/Other
 License:        ASL 2.0
