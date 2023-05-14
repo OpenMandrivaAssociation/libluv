@@ -1,7 +1,7 @@
 %define         major 1
 %define         devel %mklibname %{name} %{major} -d
 
-%define         dlver %{version}-0
+%define         dlver %{version}-1
 %define         ver %(echo %{dlver} | tr - .)
 
 %define		libname %mklibname luv %{major}
