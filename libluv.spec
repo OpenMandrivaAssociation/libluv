@@ -9,8 +9,8 @@
 %define		lualibname %mklibname -d luv-lua
 
 Name:           libluv
-Version:        1.43.0
-Release:        2
+Version:        1.44.2
+Release:        1
 Summary:        Bare libuv bindings for lua
 Group:          Development/Other
 License:        ASL 2.0
