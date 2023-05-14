@@ -15,7 +15,7 @@ Summary:        Bare libuv bindings for lua
 Group:          Development/Other
 License:        ASL 2.0
 URL:            https://github.com/luvit/luv
-Source0:        https://github.com/luvit/luv/releases/download/%{dlver}/luv-%{dlver}.tar.gz#/%{name}-%{version}.tar.gz
+Source0:        https://github.com/luvit/luv/releases/download/%{dlver}/luv-%{dlver}.tar.gz#/%{name}-%{dlver}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  ninja
