@@ -1,7 +1,7 @@
 %define         major 1
 %define         devel %mklibname %{name} %{major} -d
 
-%define         dlver %{version}-0
+%define         dlver %{version}-2
 %define         ver %(echo %{dlver} | tr - .)
 
 %define		libname %mklibname luv %{major}
@@ -9,7 +9,7 @@
 %define		lualibname %mklibname -d luv-lua
 
 Name:           libluv
-Version:        1.45.0
+Version:        1.48.0
 Release:        1
 Summary:        Bare libuv bindings for lua
 Group:          Development/Other
